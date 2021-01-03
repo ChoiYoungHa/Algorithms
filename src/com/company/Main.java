@@ -18,6 +18,6 @@ public class Main {
             }
         }
         System.out.println(min);
-        System.out.println(count);
+        System.out.print(count);
     }
 }
