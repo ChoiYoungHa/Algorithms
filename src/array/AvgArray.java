@@ -1,31 +1,29 @@
 package array;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class AvgArray {
     public static void main(String[] args) throws IOException {
-        //백준 1546번
-        //다른 사람들이 한거 보고 코드 개선해보기!
-        //되긴하는데 BufferReder parsInt 오류때문에 Scanner써서 알고리즘 속도가 많이 느리다.
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        float [] score = new float [input];
-        float max = 0;
-        float [] encore = new float [input];
-        float sum = 0;
 
-        for(int i = 0; i < score.length ; i++){
-            score[i] = sc.nextFloat();
-            if(max < score[i]){
-                max = score[i];
-            }
-        }
-        for(int i = 0; i < score.length ; i++){
-            encore[i] = (score[i]/max) * 100;
-            sum = sum + encore[i];
-        }
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        double[] array = new double[Integer.parseInt(br.readLine())];
 
-        System.out.println(sum/input);
+        StringTokenizer st = new StringTokenizer(br.readLine()," ");
+
+        for(int i = 0; i < array.length ; i++){
+            array[i] = Double.parseDouble(st.nextToken());
+        }
+        int sum = 0;
+        Arrays.sort(array);
+
+        for(int i = 0; i < array.length ; i++) {
+            sum += (array[i] / array[array.length - 1]) * 100;
+        }
+        System.out.println(sum/array.length);
     }
 }
