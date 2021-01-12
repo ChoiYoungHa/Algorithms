@@ -54,7 +54,8 @@ public class ZeroCount {
                     count = 0;
                 }
             }
-            sb.append(sum).append('\n');//sb객체에 sum을 \n을 포함시켜서 저장장        }
+            sb.append(sum).append('\n');//sb객체에 sum을 \n을 포함시켜서 저장
+        }
         System.out.println(sb);
     }
 }
