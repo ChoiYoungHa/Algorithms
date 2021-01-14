@@ -5,6 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//백준 4344 문제
+// 접근방법
+// 1. 총 몇번 반복할지, 한줄 돌아갈 때 몇번 반복하는지 생각해봤다.
+// 2. 2중 for문을 사용해야겠다고 생각했다.
+// 3. 어차피 한줄입력하고 한줄 출력나오라는 조건이 있었기에 첫번째 for문에 배열과 필요한
+// 데이터들을 정의하고 System 함수로 출력했다.
+// 그외 알게된 것.
+// 1. Tokenizer 클래스 사용방법, 클래스 내의 메서드의 기능들 tokencount, hasTokenMores, nextToken
+// 을 알게 되었다.
 public class MaybeAvg {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
