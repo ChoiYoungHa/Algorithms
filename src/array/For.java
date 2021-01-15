@@ -17,6 +17,7 @@ import java.util.StringTokenizer;
 // 디버깅표를 작성해서 변수를 추적해봤다.
 // 원하는 대로 흘러가는지 계속 체크했고 함수사용법이 맞는지 자료형이 맞는지 따져봤다.
 // 해결했다.
+// 코드복습
 public class For {
     public static void main (String args []) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
