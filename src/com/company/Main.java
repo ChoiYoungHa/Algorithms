@@ -1,23 +1,21 @@
 package com.company;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+//코드업 입출력 문제
 public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String st = br.readLine();
+        String [] array = st.split("\\.");
+        int [] temp = new int [array.length];
 
-    public static void main(String[] args) {
-        int [] num = new int[10];
-        int min = 0;
-        int count = 0;
-        Scanner sc = new Scanner(System.in);
-
-        for(int i = 1; i<10 ; i++){
-            num[i] = sc.nextInt();
-            if(min < num[i]){
-                min = num[i];
-                count = i;
-            }
+        for(int i =0 ; i< array.length ; i++){
+            temp[i] = Integer.parseInt(array[i]);
         }
-        System.out.println(min);
-        System.out.print(count);
+        System.out.printf("%04d"+"."+"%02d"+"."+"%02d",temp[0],temp[1],temp[2]);
+
     }
 }
