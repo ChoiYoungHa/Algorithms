@@ -11,13 +11,13 @@ public class NumberArray {
         int count = 0;
         int result = 0;
 
+        //백준2577번
         // 버퍼리더를 이용해서 알고리즘 작동시간 단축
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         result = Integer.parseInt(bf.readLine()) * Integer.parseInt(bf.readLine())
     * Integer.parseInt(bf.readLine());
         String str = String.valueOf(result);
-
 
         for(int i = 0; i<10; i++){
             count = 0;
