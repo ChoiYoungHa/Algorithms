@@ -11,6 +11,8 @@ public class HowtoStringTokenizer {
 
         //StringTokenizer를 사용할 땐 생성자라서 객체를 넣고 어떤식으로 분리할지 정해주어야한다.
         StringTokenizer st = new StringTokenizer(bf.readLine()," ",true);
+        //" " 공백으로 분리하고 returnDelims는 출력할 때 " "을 포함해서 출력할거냐 물어보는건데 트루니
+        //데이터 + " " + " " 가 출력됨;
 
         // 토큰이 몇개인지 모를때 있을땐 true로 지정하고 출력
         while(st.hasMoreTokens()){
