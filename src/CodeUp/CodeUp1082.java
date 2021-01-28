@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // 코드업 16진수 15단 출력 A ~ F 문제
 // 배운 것. toHexString, toUppercase, valueof 사용법
-public class HexString {
+public class CodeUp1082 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
