@@ -16,10 +16,7 @@ public class CodeUp1096 {
         for(int i = 0; i < num; i++){
             int xpoint = sc.nextInt();
             int ypoint = sc.nextInt();
-
-            for(int k = 0; k < array.length ; k++){
-                    array[xpoint - 1] [ypoint -1] = 1;
-            }
+            array[xpoint - 1] [ypoint -1] = 1;
         }
 
         for(int i = 0; i < array.length ; i++){
