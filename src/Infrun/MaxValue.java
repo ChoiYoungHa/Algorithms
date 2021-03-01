@@ -3,6 +3,7 @@ package Infrun;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 
 public class MaxValue {
@@ -16,9 +17,13 @@ public class MaxValue {
     public static void getMax(BufferedReader br, int num) throws IOException {
         int[] array = new int[num];
         int max = 0;
+        String number = br.readLine();
+        StringTokenizer st = new StringTokenizer(number," ");
 
-        for(int i = 0 ; i < num ; i++){
-            array[i] = Integer.parseInt(br.readLine());
+        int count = st.countTokens();
+
+        for(int i = 0 ; i < count ; i++){
+            array[i] = Integer.parseInt(st.nextToken());
         }
 
         for(int i = 0; i < array.length; i++ ){
