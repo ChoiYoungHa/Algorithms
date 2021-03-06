@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.ioProblem;
 
 import java.beans.IntrospectionException;
 import java.io.BufferedReader;

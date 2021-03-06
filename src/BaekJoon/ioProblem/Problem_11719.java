@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.ioProblem;
 
 import java.io.*;
 
