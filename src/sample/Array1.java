@@ -1,6 +1,7 @@
 package sample;
 
 public class Array1 {
+    //정보처리산업기사 실기기출
     public static void main(String[] args) {
         int a[][] = new int[5][5];
         initArray(a);
