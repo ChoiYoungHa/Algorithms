@@ -5,6 +5,7 @@ public class MergeSort {
     public static int[] src;
     public static int[] tmp;
 
+    // 병합정렬ㅇ
     public static void main(String[] args) {
         src = new int[]{1, 9, 8, 5, 4, 2, 3, 7, 6};
         tmp = new int[src.length];
