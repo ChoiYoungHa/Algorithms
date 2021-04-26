@@ -2,8 +2,9 @@ package DP;
 
 import java.util.Scanner;
 
-public class Problem_9095 {
 
+public class Problem_9095 {
+    // 다른방법 찾아보기
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
