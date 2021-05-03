@@ -1,6 +1,6 @@
 package sample;
 
-//산업기사 재귀함수 예제
+//산업기사 재귀함수
 public class Recur {
     public static void main(String[] args) {
         int n;
