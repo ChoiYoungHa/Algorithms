@@ -6,4 +6,5 @@ public class Use {
         System.out.println(javabook.name);
         System.out.println(javabook.price);
         System.out.println(javabook.company);
+    }
 }
