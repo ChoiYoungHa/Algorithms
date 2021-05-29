@@ -9,6 +9,7 @@ public class FunctionProblem {
     }
 
     // SQLD 시험대비
+
     public static long test(int[] a){
         int sum = 0;
         for (int i = 0; i < a.length; i++) {
