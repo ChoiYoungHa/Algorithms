@@ -1,4 +1,4 @@
-package Infrun.CodingTest.String;
+package Infrun.CodingTest.String_문자열;
 
 import java.util.Scanner;
 
@@ -15,7 +15,6 @@ public class findText {
                 answer += 1;
             }
         }
-
         return answer;
     }
 
@@ -27,4 +26,6 @@ public class findText {
 
         System.out.println(t.solution(str, a));
     }
+
+
 }
