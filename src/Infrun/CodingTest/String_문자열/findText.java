@@ -24,6 +24,7 @@ public class findText {
         String str = sc.next();
         char a = sc.next().charAt(0);
 
+
         System.out.println(t.solution(str, a));
     }
 
