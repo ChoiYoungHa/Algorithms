@@ -10,8 +10,16 @@ public class findText {
         char b = Character.toUpperCase(a);
 //        System.out.println("text : " + text + " " + "b = " +b);
 
-        for (int i = 0; i < text.length(); i++){
-            if(text.charAt(i) == b){
+        // 1번째 문자의 길이로 접근하는 방법
+//        for (int i = 0; i < text.length(); i++){
+//            if(text.charAt(i) == b){
+//                answer += 1;
+//            }
+//        }
+
+        // 2번째 forEach를 사용하는 방법
+        for (char x : text.toCharArray()) {
+            if (x == b) {
                 answer += 1;
             }
         }
