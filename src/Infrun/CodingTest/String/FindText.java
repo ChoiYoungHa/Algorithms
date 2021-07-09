@@ -2,7 +2,7 @@ package Infrun.CodingTest.String;
 
 import java.util.Scanner;
 
-public class findText {
+public class FindText {
 
     public int solution(String str, char a) {
         int answer = 0;
@@ -28,7 +28,7 @@ public class findText {
     }
 
     public static void main(String[] args) {
-        findText t = new findText();
+        FindText t = new FindText();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char a = sc.next().charAt(0);
