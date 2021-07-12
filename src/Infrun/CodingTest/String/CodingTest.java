@@ -7,6 +7,7 @@ public class CodingTest {
         System.out.println(ct.solution(boat, 8));
     }
 
+    // 코딩테스트 보트 옮기기 문제
     public int solution(int[] deposit, int m) {
         int temp = 1;
         int result = 0;
