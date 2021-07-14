@@ -1,2 +1,3 @@
-"Baekjoon Algoritms" 
+"Algoritms" 
+- Baekjoon
 - CodeUp
