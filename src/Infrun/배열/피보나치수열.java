@@ -2,7 +2,7 @@ package Infrun.배열;
 
 import java.util.Scanner;
 
-//피보나치
+
 public class 피보나치수열 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
