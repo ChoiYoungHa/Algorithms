@@ -18,16 +18,15 @@ public class 등수구하기 {
 
     static int[] solution(int[] array, int n) {
         int answer[] = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++){
             int rank = 1;
             for (int j = 0; j < n; j++){
-                if(array[j] > array[i]){
+                if(array[i] < array[j]){
                     rank++;
                 }
             }
             answer[i] = rank;
         }
-
         return answer;
     }
 }
